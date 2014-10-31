@@ -1,0 +1,27 @@
+{
+  "name": "native-geoip-middleware",
+  "version": "0.1.0",
+  "description": "Native app middleware for GeoIP",
+  "main": "src/middleware.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/upimg/native-geoip-middleware"
+  },
+  "keywords": [
+    "geoip",
+    "express",
+    "middleware"
+  ],
+  "author": "Brendan Ashworth",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/upimg/native-geoip-middleware/issues"
+  },
+  "homepage": "https://github.com/upimg/native-geoip-middleware",
+  "dependencies": {
+    "geoip-lite": "^1.1.3"
+  }
+}
