@@ -26,3 +26,5 @@ app.get('/', function(req, res) {
 
 ### `req.geo`
 Basically, it looks exactly [like this](https://github.com/bluesmoon/node-geoip#synopsis).
+
+Please note that not all parameters are guaranteed to be there (i.e. `city` may be omitted), so it may be best to check for yourself.
